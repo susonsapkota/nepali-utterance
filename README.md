@@ -4,6 +4,10 @@ This repository contains a high-quality dataset of isolated Nepali word utteranc
 
 The dataset includes thousands of unique Nepali words, dynamically faded and padded to prevent hard clipping, providing clean, isolated utterances suitable for language learning, speech synthesis, and linguistic research.
 
+## Releases & Downloads
+
+- **[v1.1 - OpenSLR 54 Master Dataset](https://github.com/susonsapkota/nepali-utterance/releases/tag/v1.1-OpenSLR54)**: Contains an aggressively filtered, curated master dataset. Features **10,175 unique Nepali words** (one perfectly padded, high-quality audio slice per word), making it plug-and-play ready for training text-to-speech models like Piper TTS.
+
 ## Directory Structure
 
 - `audio/` - Contains all extracted `.wav` audio files.
@@ -16,6 +20,7 @@ This dataset is released under the **Creative Commons Attribution-ShareAlike 4.0
 The isolated utterances in this dataset were derived by processing full-sentence audio from the following open-source datasets:
 1. **OpenSLR 43 (Large Nepali ASR)** - Licensed under CC BY-SA 4.0.
 2. **Mozilla Common Voice (Nepali)** - Licensed under CC0.
+3. **OpenSLR 54 (Nepali ASR)** - Licensed under CC BY-SA 4.0.
 
 As a derivative work combining CC BY-SA 4.0 and CC0 materials, this entire collection is distributed under the copyleft CC BY-SA 4.0 license to ensure it remains open and freely accessible.
 
